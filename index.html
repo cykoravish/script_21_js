@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>21 Days of javascript | web-dev</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="bg-gray-950 w-full h-screen text-white" id="body">
+    <div class="conatiner p-4 text-center mt-10">
+      <h1 class="text-sm sm:text-xl mb-4 font-semibold text-blue-500">
+        Enter the number till you wanna print ?
+      </h1>
+      <input
+        type="number"
+        id="inpNum"
+        min="1"
+        max="500"
+        class="[appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none bg-gray-700 text-white border-2 border-gray-500 rounded-sm px-4 py-1 outline-none text-center"
+      />
+      <button
+        id="btn"
+        class="block mx-auto border-2 mt-4 px-3 rounded-md py-1 hover:border-blue-500 hover:text-blue-500 font-semibold"
+      >
+        Print
+      </button>
+    </div>
+    <div
+      id="numBox"
+      class="flex justify-center items-center gap-8 flex-wrap border-2 p-4 border-blue-500 m-4 max-w-sm mx-auto"
+    >
+      <!-- <span
+        class="border p-2 w-12 h-12 text-center hover:text-blue-500 hover:font-bold hover:border-2"
+        >1</span
+      > -->
+    </div>
+    <div class="text-center">
+      <button
+        id="clearBtn"
+        class="border border-red text-red-500 px-3 py-1 rounded-md hover:font-semibold hover:border-2"
+      >
+        Clear
+      </button>
+    </div>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+    <script src="script1.js"></script>
+  </body>
+</html>

@@ -101,7 +101,7 @@
 
 //5. find sum of all even numbers to n.
 
-// brute force solution 
+// brute force solution
 // let n = 6;
 // let sum = 0;
 // for (let i = 2; i <= n; i++) {
@@ -121,4 +121,25 @@
 // n = n/2;
 // let sumOfEvenNum = n * (n + 1);
 // console.log(sumOfEvenNum)
- 
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+//6. print all numbers divisible by 3 and 5 both up to N.
+
+// const n = 30;
+// for (let i = 1; i <= n; i++) {
+//   if (i % 3 === 0 && i % 5 === 0) {
+//     console.log(i);
+//   }
+// }
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+//7 print the number that are both even and perfect squares;
+
+// let n = 20;
+// for (let i = 1; i <= n; i++) {
+//   if (Math.sqrt(i) % 2 === 0) {
+//     console.log(i);
+//   }
+// }

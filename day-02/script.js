@@ -9,3 +9,19 @@
 //     return max;
 // }
 // console.log(findMax(10, 20, 5));
+
+//2. Check if a number is positive, Negative or Zero
+// Input: -9
+// Output: Negative
+// function checkNumber(num){
+//     if(num>0){
+//         return "Positive"
+//     }else if(num<0){
+//         return "Negative"
+//     }else{
+//         return "zero"
+//     }
+// }
+// console.log(checkNumber(0))
+
+//3. 

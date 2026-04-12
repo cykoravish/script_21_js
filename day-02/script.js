@@ -96,3 +96,19 @@
 //   return vowels.toLocaleLowerCase().split("").includes(char) ? "Vowel" : "Consonent";
 // }
 // console.log(checkChar("u"))
+
+//5. check if a year is leap year
+//  a year is a leap year if it satisfies these conditions
+
+//  -> it is divisible by 4
+//  -> but not divisible by 100
+//  -> unless it also divisible by 400
+// function isLeapYear(year) {
+//   if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
+//     return "Leap Year";
+//   } else {
+//     return "Not a Leap Year";
+//   }
+// }
+
+// console.log(isLeapYear(2024)); // Leap Year

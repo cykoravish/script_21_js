@@ -112,3 +112,21 @@
 // }
 
 // console.log(isLeapYear(2024)); // Leap Year
+
+//6. check if character is uppercase, lowercase, digit or special character
+
+// function findCharacterType(char) {
+//   if (typeof char !== "string") return "please enter valid string";
+
+//   let charCode = char.charCodeAt(0);
+
+//   if(charCode >= 65 && charCode <= 90){
+//     return "its a upper case character"
+//   }else if(charCode >= 97 && charCode <= 122){
+//     return "its a lower case character"
+//   }else if(charCode >= 48 && charCode <= 57){
+//     return "its a digit"
+//   }
+
+// }
+// console.log(findCharacterType("8"))

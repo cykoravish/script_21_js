@@ -130,3 +130,30 @@
 
 // }
 // console.log(findCharacterType("8"))
+
+//7. calculate incom tax based on slabs
+// input income : 750000
+// tax : 52,500
+
+// example logic
+// upto 250000 => no tax
+// upto 250001 - 500000 => 5%
+// upto 500001 - 1000000 => 20%
+// upto 10000000 => 30%
+
+// example logic
+// function calculateTax(income) {
+//   let tax = 0;
+
+//   if (income <= 250000) {
+//     tax = 0;
+//   } else if (income <= 500000) {
+//     tax = (income - 250000) * 0.05;
+//   } else if (income <= 1000000) {
+//     tax = 250000 * 0.05 + (income - 500000) * 0.2;
+//   } else {
+//     tax = 250000 * 0.05 + 500000 * 0.2 + (income - 1000000) * 0.3;
+//   }
+
+//   return tax;
+// }
